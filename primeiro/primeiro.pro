@@ -4,4 +4,11 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        geometric.cpp \
+        main.cpp \
+        rectangle.cpp
+
+HEADERS += \
+    geometric.h \
+    misc.h \
+    rectangle.h
